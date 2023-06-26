@@ -1,0 +1,52 @@
+@import '../styles/index.scss';
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: $lightGray;
+    min-height: 100vh;
+    font-family: var(--font-roboto);
+
+    main {
+        display: flex;
+        padding: 24px 32px;
+        min-height: calc(100vh - 172px);
+    }
+
+    footer {
+        @include flexBetweenCenter;
+        margin-top: auto;
+        background-color: $gray;
+        padding: 24px 32px;
+        height: 86px;
+
+        .link {
+            @include hover($hoverOrange, color);
+            @include active($white, color);
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            color: $white;
+        }
+    }
+}
+
+input {
+    all: unset;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}

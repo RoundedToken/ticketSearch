@@ -1,0 +1,30 @@
+@import '../../styles/index.scss';
+
+.root {
+    display: flex;
+    gap: 8px;
+
+    .count {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+        color: $black;
+    }
+
+    .button {
+        @include hover($hoverOrange, background-color);
+        @include active($defaultOrange, background-color);
+        display: flex;
+        background-color: $defaultOrange;
+        border-radius: 4px;
+        padding: 4px;
+
+        &:disabled {
+            background-color: $disabledOrange;
+        }
+
+        .img {
+            filter: $whiteFilter;
+        }
+    }
+}

@@ -1,0 +1,19 @@
+@import '../../styles/index.scss';
+
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+
+    .title {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        color: $black;
+        background-color: $white;
+        padding: 24px;
+        border-radius: 8px;
+        margin-bottom: 8px;
+    }
+}

@@ -1,0 +1,22 @@
+@mixin flexBetweenCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@mixin flexCenterCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin hover($color, $selector) {
+    cursor: pointer;
+    &:hover {
+        #{$selector}: $color;
+    }
+}
+@mixin active($color, $selector) {
+    cursor: pointer;
+    &:active {
+        #{$selector}: $color;
+    }
+}

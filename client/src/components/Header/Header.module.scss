@@ -1,0 +1,49 @@
+@import '../../styles/index.scss';
+
+.root {
+    position: sticky;
+    top: 0;
+    background-color: $gray;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    z-index: 2;
+    height: 84px;
+
+    .title {
+        @include hover($hoverOrange, color);
+        @include active($white, color);
+        font-size: 32px;
+        font-weight: 700;
+        color: white;
+    }
+
+    .cart {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+
+        img {
+            @include hover($orangeFilter, filter);
+            @include active($whiteFilter, filter);
+            filter: $whiteFilter;
+        }
+
+        &Count {
+            @include hover($hoverOrange, background-color);
+            @include active($defaultOrange, background-color);
+            @include flexCenterCenter;
+            background-color: $defaultOrange;
+            color: $white;
+            width: 28px;
+            height: 28px;
+            padding: 4px;
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}

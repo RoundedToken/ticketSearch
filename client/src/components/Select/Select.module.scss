@@ -1,0 +1,73 @@
+@import '../../styles/index.scss';
+
+.select {
+    &Title {
+        display: flex;
+        width: 360px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        font-size: 14px;
+        line-height: 20px;
+        color: $black;
+
+        .inputContainer {
+            cursor: pointer;
+            display: flex;
+            height: 40px;
+            padding: 10px 16px;
+            align-items: center;
+            gap: 8px;
+            align-self: stretch;
+            border: 1px solid $defaultBorder;
+            border-radius: 8px;
+            background-color: $white;
+
+            &Active {
+                border-color: $defaultOrange;
+
+                img {
+                    transform: rotate(180deg);
+                }
+            }
+
+            input {
+                font-size: 14px;
+                line-height: 20px;
+                width: 100%;
+                &::placeholder {
+                    color: $textPlaceholder;
+                }
+            }
+
+            img {
+                filter: $placeholderFilter;
+            }
+        }
+    }
+
+    &Dropdown {
+        cursor: pointer;
+        display: flex;
+        width: 360px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 4px;
+        padding: 8px;
+        box-shadow: 0px 10px 22px -4px rgba(27, 31, 35, 0.12);
+        position: fixed;
+        z-index: 5;
+        background-color: $white;
+        border-radius: 8px;
+        border: 1px solid $white;
+
+        .selectItem {
+            @include hover($defaultOrange, color);
+            @include active($black, color);
+            width: 100%;
+            padding: 12px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+    }
+}

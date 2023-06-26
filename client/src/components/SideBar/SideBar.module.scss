@@ -1,0 +1,71 @@
+@import '../../styles/index.scss';
+
+.root {
+    position: sticky;
+    width: 408px;
+    height: 882px;
+    left: 32px;
+    top: 108px;
+    background-color: $white;
+    border-radius: 8px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    color: $black;
+
+    &Title {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .filter {
+        display: flex;
+        width: 360px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+
+        &ByName {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 4px;
+            width: 100%;
+
+            &Title {
+                font-size: 14px;
+                line-height: 20px;
+            }
+
+            .inputContainer {
+                cursor: text;
+                display: flex;
+                height: 40px;
+                padding: 10px 16px;
+                align-items: center;
+                gap: 8px;
+                align-self: stretch;
+                border: 1px solid $defaultBorder;
+                border-radius: 8px;
+                background-color: $white;
+
+                &Active {
+                    border-color: $defaultOrange;
+                }
+
+                input {
+                    font-size: 14px;
+                    line-height: 20px;
+                    width: 100%;
+
+                    &::placeholder {
+                        color: $textPlaceholder;
+                    }
+                }
+            }
+        }
+    }
+}

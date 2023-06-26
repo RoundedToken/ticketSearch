@@ -1,0 +1,34 @@
+@import '../../styles/index.scss';
+
+.group {
+    position: relative;
+    @include hover($darkWhite, background-color);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: $white;
+    gap: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color: $black;
+}
+
+.arrow {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    filter: $grayFilter;
+
+    &Rotate {
+        transform: rotate(180deg);
+    }
+}
+
+.item {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
