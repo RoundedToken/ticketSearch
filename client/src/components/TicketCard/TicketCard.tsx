@@ -19,12 +19,13 @@ const TicketCard: FC<ITicketCard> = ({ id, cartMode = false, posterUrl, title, g
     return (
         <div className={styles.root}>
             <div className={styles.imgContainer}>
-            <Image
-                src={posterUrl}
-                alt="Ticket image"
-                width={100}
-                height={120}
-            />
+                <Image
+                    src={posterUrl}
+                    alt="Ticket image"
+                    width={100}
+                    height={120}
+                    priority={true}
+                />
             </div>
 
             <div className={styles.content}>
