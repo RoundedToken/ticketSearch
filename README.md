@@ -27,7 +27,7 @@ NEXT.JS 13 pet project for searching cinema tickets
 ## About the work done
 
 - The front-end is developed on `NEXT.JS` v.13+ with `App Routing` and mocked back-end on `Express`
-- An optimized component structure is implemented with optimal `SSR` and `SSG`
+- An optimized component structure is implemented with optimal balance in `SSR` and `SSG`
 - Pixel perfect layout matching the `Figma` mockup
 - Optimized `Redux` store and component rendering
 - Practiced with `React portal`, `custom hooks`, `debounced input`
