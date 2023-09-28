@@ -1,6 +1,6 @@
 # ticketSearch
 ## Description
-NEXT.JS 13 pet project for searching cinema tickets
+Next.js v.13+ with App Routing pet project for searching cinema tickets
 
 ## Technologies
 
