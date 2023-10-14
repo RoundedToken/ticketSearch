@@ -3,6 +3,7 @@ import '../styles/globals.scss';
 import { Roboto } from 'next/font/google';
 import { ReduxProvider } from '@/redux/provider';
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/react';
 
 const roboto = Roboto({
     weight: ['100', '300', '400', '500', '700', '900'],
@@ -34,6 +35,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                             О нас
                         </Link>
                     </footer>
+                    <Analytics />
                 </ReduxProvider>
             </body>
         </html>
