@@ -35,8 +35,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                             О нас
                         </Link>
                     </footer>
-                    <Analytics />
                 </ReduxProvider>
+                <Analytics />
             </body>
         </html>
     );
