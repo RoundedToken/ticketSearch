@@ -17,12 +17,10 @@ Next.js v.13+ with App Routing pet project for searching cinema tickets
 &emsp;
 <img background-color='#ECD53F' width='64' src='https://user-images.githubusercontent.com/117864556/231823330-a690159b-92b3-4127-a6f2-52ef8356371e.svg'/>
 
-### Back-end stack
+### DevOps stack
 
 <p>
-<img background-color='#ECD53F' width='64' src='https://github.com/RoundedToken/yacht_shop_admin/assets/117864556/1b62b65e-4f98-4380-af9f-b88054427eae'/>
-&emsp;
-<img background-color='#ECD53F' width='64' src='https://user-images.githubusercontent.com/117864556/231824252-08d1c71a-1e9c-492a-9762-e72268ab52b8.svg'/>
+<img background-color='#ECD53F' width='64' src='https://github.com/RoundedToken/ticketSearch/assets/117864556/6d134909-2876-4015-b424-d68d5a35d0f5'/>
 
 ## About the work done
 
