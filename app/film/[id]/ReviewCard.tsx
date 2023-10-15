@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React, { FC } from 'react';
-import imageImg from '../../../../public/image.svg';
+import imageImg from '../../../public/image.svg';
 
 interface IReviewCard {
     styles: {

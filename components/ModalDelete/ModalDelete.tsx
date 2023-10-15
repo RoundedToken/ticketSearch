@@ -1,7 +1,7 @@
 'use client';
 import React, { FC, useRef } from 'react';
 import styles from './ModalDelete.module.scss';
-import closeImg from '../../../public/close.svg';
+import closeImg from '../../public/close.svg';
 import Image from 'next/image';
 import { createPortal } from 'react-dom';
 import { removeFromCart } from '@/redux/cartSlice';

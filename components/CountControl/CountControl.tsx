@@ -1,9 +1,9 @@
 'use client';
 import React, { FC, useState } from 'react';
 import styles from './CountControl.module.scss';
-import decrementImg from '../../../public/decrement.svg';
+import decrementImg from '../../public/decrement.svg';
 import Image from 'next/image';
-import incrementImg from '../../../public/increment.svg';
+import incrementImg from '../../public/increment.svg';
 import { useDispatch, useSelector } from 'react-redux';
 import { RootState } from '@/redux/store';
 import { decrementCount, incrementCount } from '@/redux/cartSlice';

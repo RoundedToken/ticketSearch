@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Header.module.scss';
 import Link from 'next/link';
 import Image from 'next/image';
-import cartImg from '../../../public/cart.svg';
+import cartImg from '../../public/cart.svg';
 import CartCount from './CartCount';
 
 const Header = () => {

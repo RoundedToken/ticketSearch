@@ -1,7 +1,7 @@
 'use client';
 import React, { useCallback, useContext, useState } from 'react';
 import styles from './MenuAccordion.module.scss';
-import arrowImg from '../../../public/arrow.svg';
+import arrowImg from '../../public/arrow.svg';
 import Image from 'next/image';
 
 const MenuContext = React.createContext<any>(null);

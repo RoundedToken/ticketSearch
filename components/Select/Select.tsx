@@ -3,7 +3,7 @@ import React, { createContext, useCallback, useContext, useEffect, useRef, useSt
 import styles from './Select.module.scss';
 import { createPortal } from 'react-dom';
 import { useModal } from '@/hooks/useModal';
-import arrowImg from '../../../public/arrow.svg';
+import arrowImg from '../../public/arrow.svg';
 import Image from 'next/image';
 import { useDispatch } from 'react-redux';
 import { ActionCreatorWithPayload } from '@reduxjs/toolkit';
