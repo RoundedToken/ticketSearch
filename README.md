@@ -1,6 +1,9 @@
 # [ticketSearch](https://ticketsearch.vercel.app/)
 ## Description
 Next.js v.13+ with App Routing pet project for searching cinema tickets
+<br/>
+<br/>
+You can find `Figma` design [here](https://www.figma.com/file/RarL3OIF4TjNMCOpBzgbhB/%D0%9C%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-%D0%91%D0%B8%D0%BB%D0%B5%D1%82%D0%BE%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-(Copy)?mode=dev)
 
 ## Technologies
 
@@ -16,8 +19,10 @@ Next.js v.13+ with App Routing pet project for searching cinema tickets
 <img background-color='#ECD53F' width='64' src='https://user-images.githubusercontent.com/117864556/231822633-2a95fe34-3182-4ab9-8025-2c78027190a8.svg'/>
 &emsp;
 <img background-color='#ECD53F' width='64' src='https://user-images.githubusercontent.com/117864556/231823330-a690159b-92b3-4127-a6f2-52ef8356371e.svg'/>
+&emsp;
+<img background-color='#ECD53F' width='64' height='64' src='https://github.com/RoundedToken/CoffeeHouse/assets/117864556/e4e58934-0cee-40db-9e4a-eb17fb621dda'/>
 
-### DevOps stack
+### CI/CD stack
 
 <p>
 <img background-color='#ECD53F' width='64' src='https://github.com/RoundedToken/ticketSearch/assets/117864556/6d134909-2876-4015-b424-d68d5a35d0f5'/>
